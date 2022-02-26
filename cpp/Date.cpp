@@ -117,15 +117,19 @@ public:
 
         std::cout<<"date "<< date_ <<std::endl<< year_<<"."<<month_<<"."<<day_<<std::endl;
     };
+
+    Date(long num){
+        setDate(num);
+    }
+
+    Date(int year, int month, int day){
+        setDate(year, month, day);
+    }
 };
 
 // int main(void){
-//     Date date;
-//     // for(int i = 365*399;i<365*400;i++){
-//     //     date.setDate(i);
-//     //     date.showDate();
-//     // }
-//     date.setDate(5000);
+//     Date date(13,9,8);
+//     // date.setDate(5000);
 //     date.showDate();
 //     date.addDay(36);
 //     date.showDate();
