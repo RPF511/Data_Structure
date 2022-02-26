@@ -129,12 +129,17 @@ public:
     Date(int year, int month, int day){
         setDate(year, month, day);
     }
+
+    Date(const Date& date){
+        setDate(date.date_);
+    }
 };
 
 // int main(void){
 //     // Date date = Date();
-//     Date date(13,9,8);
-//     // date.setDate(5000);
+//     // Date date(13,9,8);
+//     Date d1(4000);
+//     Date date = Date(d1);
 //     date.showDate();
 //     date.addDay(36);
 //     date.showDate();
