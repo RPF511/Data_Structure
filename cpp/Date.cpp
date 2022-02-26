@@ -119,18 +119,18 @@ public:
     };
 };
 
-int main(void){
-    Date date;
-    // for(int i = 365*399;i<365*400;i++){
-    //     date.setDate(i);
-    //     date.showDate();
-    // }
-    date.setDate(5000);
-    date.showDate();
-    date.addDay(36);
-    date.showDate();
-    date.addMonth(3);
-    date.showDate();
-    date.addYear(2);
-    date.showDate();
-}
+// int main(void){
+//     Date date;
+//     // for(int i = 365*399;i<365*400;i++){
+//     //     date.setDate(i);
+//     //     date.showDate();
+//     // }
+//     date.setDate(5000);
+//     date.showDate();
+//     date.addDay(36);
+//     date.showDate();
+//     date.addMonth(3);
+//     date.showDate();
+//     date.addYear(2);
+//     date.showDate();
+// }
