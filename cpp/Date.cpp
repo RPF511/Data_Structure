@@ -118,6 +118,10 @@ public:
         std::cout<<"date "<< date_ <<std::endl<< year_<<"."<<month_<<"."<<day_<<std::endl;
     };
 
+    Date(){
+        setDate(1);
+    }
+
     Date(long num){
         setDate(num);
     }
@@ -128,6 +132,7 @@ public:
 };
 
 // int main(void){
+//     // Date date = Date();
 //     Date date(13,9,8);
 //     // date.setDate(5000);
 //     date.showDate();
